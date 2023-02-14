@@ -3,7 +3,7 @@ public class View : IView
 {
     public void Show(string s)
     {
-        Console.WriteLine(s);    
+        Console.WriteLine(s);
+        
     }
-
 }
