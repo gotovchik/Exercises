@@ -1,4 +1,4 @@
 public interface IView
 {
-    public void Show();
+    public void Show(string s);
 }

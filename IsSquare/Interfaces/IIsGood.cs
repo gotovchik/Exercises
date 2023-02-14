@@ -1,4 +1,4 @@
-public interface IIsGood
+interface IIsGood
 {
-    public bool IsGood();
+    public bool IsGood(int n);
 }

@@ -6,6 +6,8 @@ public class Number : ISquare, IIsGood
     {
         this.number = number;
     }
-    
 
-}
+    public bool IsGood(int n) => n == this.Square();
+
+    public int Square() => number*number;
+}    
